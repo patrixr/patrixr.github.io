@@ -81,8 +81,8 @@ String[] ImageList = {
 
 void setup()
 {
-  size(800, 800, P2D);
-  background(255);
+  size(650, 650, P2D);
+  background(#141414);
   pickImage();
 }
 
@@ -136,7 +136,8 @@ void draw()
 
 void mousePressed() 
 {
-  background(255);
+  background(#141414);
   pickImage();
+  loop();
   frameCount = 0;
 }
