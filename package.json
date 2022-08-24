@@ -1,0 +1,22 @@
+{
+  "name": "patrixr.github.io",
+  "version": "0.0.1",
+  "description": "personal blog",
+  "main": "index.js",
+  "authors": {
+    "name": "Patrick",
+    "email": "patrick@tronica.io"
+  },
+  "repository": "patrixr/patrixr.github.io/patrixr.github.io",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuepress-theme-offwhite": "^2.1.1"
+  }
+}
