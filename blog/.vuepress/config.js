@@ -31,7 +31,7 @@ module.exports = {
     title: 'Tronic-art',
     subtitle: 'Making art with code',
     author: 'Patrick',
-    navbar: { // will display below the title
+    footerLinks: { // will display below the title
       Github: 'https://github.com/patrixr',
       Twitter: 'https://twitter.com/tronicapps',
       Instagram: 'https://www.instagram.com/patrix.r/',
